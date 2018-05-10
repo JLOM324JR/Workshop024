@@ -1,0 +1,14 @@
+body{
+    background-image: url('../img/ar.jpeg');
+    font-family: 'Itim', cursive;
+
+}
+.container{
+    margin-top: 100px;
+    text-align: center;
+}
+.detail{
+    
+    background-color: antiquewhite;
+    text-align-last: center;
+}

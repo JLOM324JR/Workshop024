@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Software Engineering</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Racing+Sans+One|Shrikhand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="css/default.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html">JLOM</a>
+      <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavId">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav  text-uppercase ml-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="search.html">Search</a>
+          </li>
+          
+
+
+        </ul>
+      </div>
+  </nav>
+  <div class="container">
+    <h1 class="title">Search</h1>
+    <form>
+      <div class="form-group">
+        <label for="search">Search</label>
+        <input type="text" name="keyword" id="keyword" class="form-control" placeholder="Ex. Cafe,Restaurant" aria-describedby="helpId">
+      </div>
+      <div class="form-group">
+        <label for="">Category</label>
+        <select class="form-control" name="type" id="type">
+          <option value="resturant">Resturant</option>
+          <option value="doctor">Doctor</option>
+          <option value="beauty_salon">Beauty Salon</option>
+          <option value="gas_station">Gas Station</option>
+          <option value="atm">ATM</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="">Distance</label>
+        <select class="form-control" name="radius" id="radius">
+          <option value="500">500 m</option>
+          <option value="1000">1 km</option>
+          <option value="5000">5 km</option>
+        </select>
+      </div>
+      <div class="col-lg-12  text-center">
+        <a name="" id="search" class="btn btn-primary text-center" role="button">Search</a>
+      </div>
+      <p></p>
+      <h4>Results</h4>
+      <div id="searchresult"></div>
+    </form>
+  </div>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+  <script src="js/placesearch.js"></script>
+  <script src="js/search.js"></script>
+</body>
+
+</html>
